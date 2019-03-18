@@ -6,7 +6,6 @@ brew "git"
 brew "thefuck"
 brew "autojump"
 
-
 # ===== Casks =====
 
 # Browsers
@@ -30,6 +29,7 @@ cask "spotify"
 cask "vlc"
 
 # Messaging
+cask "caprine"
 cask "slack"
 cask "telegram"
 

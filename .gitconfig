@@ -1,63 +1,51 @@
 [user]
-name = Sassoon Kuyumcian
-email = sassoon.k@gmail.com
-
+    name = Sassoon Kuyumcian
+    email = sassoon.k@gmail.com
 [core]
-editor = vim
-whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-excludesfile = ~/.gitignore
-
+    editor = vim
+    whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    excludesfile = ~/.gitignore
 [web]
-browser = google-chrome
-
+    browser = google-chrome
 [color]
-ui = auto
-
+    ui = auto
 [color "branch"]
-current = yellow bold
-local = green bold
-remote = cyan bold
-
+    current = yellow bold
+    local = green bold
+    remote = cyan bold
 [color "diff"]
-meta = yellow bold
-frag = magenta bold
-old = red bold
-new = green bold
-whitespace = red reverse
-
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
 [color "status"]
-added = green bold
-changed = yellow bold
-untracked = red bold
-
+    added = green bold
+    changed = yellow bold
+    untracked = red bold
 [diff]
-tool = vimdiff
-
+    tool = vimdiff
 [difftool]
-prompt = false
-
+    prompt = false
 [alias]
-aa = add --all
-ap = add -p
-#############
-br = branch
-ba = branch -a
-#############
-ci = commit
-ca = commit -a
-cm = commit -m
-cv = commit -v
-#############
-cl = clone
-#############
-df = diff
-dc = diff --cached
-#############
-fe = fetch
-#############
-last = log -1 HEAD
-#############
-st = status
-#############
-unci =
-unstage = reset HEAD --
+    aa = add --all
+    ap = add -p
+    br = branch
+    ba = branch -a
+    ci = commit
+    ca = commit -a
+    cm = commit -m
+    cv = commit -v
+    co = checkout
+    cb = checkout -b
+    cl = clone
+    df = diff
+    dc = diff --cached
+    fe = fetch
+    last = log -1 HEAD
+    mr = merge
+    poh = push origin HEAD
+    ploh = pull origin HEAD
+    st = status
+    unci = reset HEAD~
+    unstage = reset HEAD --
