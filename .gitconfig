@@ -1,0 +1,63 @@
+[user]
+name = Sassoon Kuyumcian
+email = sassoon.k@gmail.com
+
+[core]
+editor = vim
+whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+excludesfile = ~/.gitignore
+
+[web]
+browser = google-chrome
+
+[color]
+ui = auto
+
+[color "branch"]
+current = yellow bold
+local = green bold
+remote = cyan bold
+
+[color "diff"]
+meta = yellow bold
+frag = magenta bold
+old = red bold
+new = green bold
+whitespace = red reverse
+
+[color "status"]
+added = green bold
+changed = yellow bold
+untracked = red bold
+
+[diff]
+tool = vimdiff
+
+[difftool]
+prompt = false
+
+[alias]
+aa = add --all
+ap = add -p
+#############
+br = branch
+ba = branch -a
+#############
+ci = commit
+ca = commit -a
+cm = commit -m
+cv = commit -v
+#############
+cl = clone
+#############
+df = diff
+dc = diff --cached
+#############
+fe = fetch
+#############
+last = log -1 HEAD
+#############
+st = status
+#############
+unci =
+unstage = reset HEAD --

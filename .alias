@@ -1,0 +1,23 @@
+alias zshe="vim ~/.zshrc"
+alias zshs="source ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+
+# Easy navigation
+alias cd..="cd .."
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .4="cd ../../.."
+
+# Command shortening
+alias la="ls -lAh"  # ls in a list including hidden files
+alias l.="ls -d .*"  # show hidden files/directories
+alias mkdir="mkdir -p"  # create parent directories by default
+
+alias g="git"
+alias f="fuck"
+
+# Docker
+alias docker_clean_images='docker rmi -f $(docker images -q)'
+alias docker_clean_volumes='docker volume rm $(docker volume ls -qf dangling=true)'
+alias docker_clean_containers='docker rm $(docker ps -qa --no-trunc --filter "status=exited")'
