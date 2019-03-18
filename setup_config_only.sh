@@ -6,8 +6,8 @@ rm -rf ~/.gitconfig
 rm -rf ~/.vimrc
 
 echo "Setting symlinks for git and vim.."
-ln -s $(pwd)/.gitconfig ~
-ln -s $(pwd)/.vimrc ~
+ln -s $(pwd)/dotfiles/.gitconfig ~
+ln -s $(pwd)/dotfiles/.vimrc ~
 
 echo "Downloading monokai vim syntax highlighting.."
 mkdir -p ~/.vim/colors

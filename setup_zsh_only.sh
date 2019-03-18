@@ -8,7 +8,7 @@ echo "Removing default .zshrc.."
 rm -f ~/.zshrc
 
 echo "Setting up symlinks.."
-ln -s $(pwd)/.zshrc ~
+ln -s $(pwd)/dotfiles/.zshrc ~
 
 echo "Done! Enter the following command to set Zsh as default shell"
 echo "$ chsh -s $(which zsh)"
