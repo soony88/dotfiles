@@ -11,4 +11,4 @@ echo "Setting up symlinks.."
 ln -s $(pwd)/dotfiles/.zshrc ~
 
 echo "Done! Enter the following command to set Zsh as default shell"
-echo "$ chsh -s $(which zsh)"
+echo '$ chsh -s $(which zsh)'
