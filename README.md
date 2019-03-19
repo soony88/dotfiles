@@ -1,5 +1,10 @@
 ### Use
 
+Edit the following line in `dotfiles/.zshrc` to set the path to dotfiles:
+```
+export DOTFILES="<path_to_this_repo>/dotfiles"
+```
+
 Run the following command to do a full install on a new Mac:
 ```
 ./setup.sh

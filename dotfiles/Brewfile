@@ -1,5 +1,6 @@
 # ===== Brews =====
 
+brew "awscli"
 brew "wget"
 brew "python"
 brew "git"
