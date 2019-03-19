@@ -9,5 +9,5 @@ Run the following separately if need be:
 ```
 ./setup_brew_only.sh  # brew bundle install
 ./setup_zsh_only.sh  # zsh and zshrc setup
-./setup_config_only.sh  # git, ssh, etc dotfiles
+./setup_config_only.sh  # git, vim, etc (more to add later) dotfiles
 ```
