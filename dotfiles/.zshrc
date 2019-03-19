@@ -8,7 +8,13 @@ ZSH_THEME="af-magic"
 plugins=(
   autojump
   brew
+  docker
   git
+  kubectl
+  osx
+  pip
+  python
+  sudo
 )
 
 source $ZSH/oh-my-zsh.sh
