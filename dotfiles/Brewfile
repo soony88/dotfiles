@@ -1,23 +1,25 @@
 # ===== Brews =====
 
-brew "awscli"
-brew "wget"
-brew "python"
-brew "git"
-brew "thefuck"
 brew "autojump"
+brew "awscli"
+brew "git"
+brew "mas"
+brew "python"
+brew "tmux"
+brew "thefuck"
+brew "wget"
 
 # ===== Casks =====
 
 # Browsers
-cask "google-chrome"
 cask "brave-browser"
+cask "google-chrome"
 
 # Developer Tools
 cask "atom"
-cask "postman"
-cask "iterm2"
 cask "docker"
+cask "iterm2"
+cask "postman"
 
 # Productivity
 cask "evernote"
@@ -36,4 +38,11 @@ cask "telegram"
 
 # Other useful apps
 cask "appcleaner"
+cask "authy"
+cask "puush"
+cask "real-vnc"
 cask "spectacle"
+
+# ===== Mac Apple Store =====
+
+mas "Trello", id: 1278508951
