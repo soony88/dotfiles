@@ -2,12 +2,19 @@
 set -e
 
 echo "Removing previous symlinks.."
-rm -rf ~/.gitconfig
-rm -rf ~/.vimrc
 
-echo "Setting symlinks for git and vim.."
-ln -s $(pwd)/dotfiles/.gitconfig ~
-ln -s $(pwd)/dotfiles/.vimrc ~
+files=$(find ./config -type f -exec basename {} \;)
+
+for file in $files; do
+  echo Removing $file
+  rm -rf ~/$file
+done
+
+
+echo "Setting symlinks for git, tmux and vim.."
+for file in $files; do
+  ln -s $(pwd)/config/$file ~
+done
 
 echo "Downloading monokai vim syntax highlighting.."
 mkdir -p ~/.vim/colors

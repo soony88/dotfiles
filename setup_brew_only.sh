@@ -6,9 +6,7 @@ brew update
 brew upgrade
 
 echo "Using Brewfile to bundle install.."
-pushd $(pwd)/dotfiles
 brew bundle
-popd
 
 echo "Running brew cleanup"
 brew cleanup

@@ -1,5 +1,5 @@
 export ZSH="/Users/kuyumcians/.oh-my-zsh"
-export DOTFILES="/Users/kuyumcians/repos/dotfiles/dotfiles"
+export PROFILE_PATH="/Users/kuyumcians/repos/dotfiles/profile"
 
 ZSH_THEME="af-magic"
 
@@ -18,6 +18,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source $DOTFILES/.alias
-source $DOTFILES/.func
-source $DOTFILES/.env
+source $PROFILE_PATH/.alias
+source $PROFILE_PATH/.func
+source $PROFILE_PATH/.env

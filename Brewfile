@@ -19,7 +19,9 @@ cask "google-chrome"
 cask "atom"
 cask "docker"
 cask "iterm2"
+cask "hyper"
 cask "postman"
+cask "visual-studio-code"
 
 # Productivity
 cask "evernote"
@@ -33,15 +35,18 @@ cask "vlc"
 
 # Messaging
 cask "caprine"
+cask "skype"
 cask "slack"
 cask "telegram"
 
-# Other useful apps
+# Other apps
 cask "appcleaner"
 cask "authy"
+cask "private-internet-access"
 cask "puush"
-cask "real-vnc"
+cask "scroll-reverser"
 cask "spectacle"
+cask "steam"
 
 # ===== Mac Apple Store =====
 
