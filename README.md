@@ -17,6 +17,8 @@ Run the following separately if need be:
 ./setup_zsh_only.sh  # zsh and zshrc setup
 ```
 
+```
  <O>
   |
  / \
+```
