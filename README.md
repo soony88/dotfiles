@@ -16,3 +16,7 @@ Run the following separately if need be:
 ./setup_config_only.sh  # git, vim, etc (more to add later) dotfiles
 ./setup_zsh_only.sh  # zsh and zshrc setup
 ```
+
+ <O>
+  |
+ / \
