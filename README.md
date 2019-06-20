@@ -1,4 +1,4 @@
-### Use
+### Usage
 
 Edit the following line in `dotfiles/.zshrc` to set the path to dotfiles:
 ```
