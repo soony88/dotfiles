@@ -18,7 +18,7 @@ Run the following separately if need be:
 ```
 
 ```
- <O>
-  |
- / \
+ <O> <O>
+  |   |
+ / \ / \
 ```
