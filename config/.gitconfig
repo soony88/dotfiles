@@ -32,6 +32,7 @@
     ap = add -p
     br = branch
     ba = branch -a
+    bd = branch -D
     ci = commit
     ca = commit -a
     cm = commit -m

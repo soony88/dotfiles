@@ -21,3 +21,7 @@ alias f="fuck"
 alias docker_clean_images='docker rmi -f $(docker images -q)'
 alias docker_clean_volumes='docker volume rm $(docker volume ls -qf dangling=true)'
 alias docker_clean_containers='docker rm $(docker ps -qa --no-trunc --filter "status=exited")'
+
+# Pip
+
+alias pip_uninstall_all='pip freeze | xargs pip uninstall -y'
