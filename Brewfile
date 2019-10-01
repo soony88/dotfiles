@@ -2,12 +2,28 @@
 
 brew "autojump"
 brew "awscli"
+brew "gdbm"
+brew "gettext"
 brew "git"
+brew "kops"
+brew "libevent"
+brew "libidn2"
+brew "libunistring"
+brew "libzip"
 brew "mas"
+brew "mysql"
+brew "ncurses"
+brew "openssl"
+brew "openssl@1.1"
+brew "pcre2"
 brew "python"
+brew "readline"
+brew "sqlite"
 brew "tmux"
 brew "thefuck"
+brew "tldr"
 brew "wget"
+brew "xz"
 
 # ===== Casks =====
 
@@ -21,6 +37,7 @@ cask "docker"
 cask "iterm2"
 cask "hyper"
 cask "postman"
+cask "tableplus"
 cask "visual-studio-code"
 
 # Productivity
@@ -36,13 +53,13 @@ cask "vlc"
 # Messaging
 cask "caprine"
 cask "skype"
+cask "discord"
 cask "slack"
 cask "telegram"
 
 # Other apps
 cask "appcleaner"
 cask "authy"
-cask "private-internet-access"
 cask "puush"
 cask "scroll-reverser"
 cask "spectacle"
