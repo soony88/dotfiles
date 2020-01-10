@@ -1,6 +1,6 @@
 ### Usage
 
-Edit the following line in `config/.zshrc` to set the path to dotfiles:
+Edit the following line in `profile/.zshrc` to set the path to dotfiles:
 ```
 export PROFILE_PATH="<path_to_this_repo>/profile"
 ```
