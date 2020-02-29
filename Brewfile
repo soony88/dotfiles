@@ -6,6 +6,7 @@ brew "gdbm"
 brew "gettext"
 brew "git"
 brew "kops"
+brew "kubectl"
 brew "libevent"
 brew "libidn2"
 brew "libunistring"
@@ -65,8 +66,6 @@ cask "slack"
 cask "telegram"
 
 # Other apps
-
-
 
 
 # ===== Mac Apple Store =====
