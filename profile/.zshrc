@@ -1,5 +1,5 @@
-export ZSH="/Users/kuyumcians/.oh-my-zsh"
-export PROFILE_PATH="/Users/kuyumcians/repos/dotfiles/profile"
+export ZSH="$HOME/.oh-my-zsh"
+export PROFILE_PATH="$HOME/repos/dotfiles/profile"
 
 ZSH_THEME="af-magic"
 
