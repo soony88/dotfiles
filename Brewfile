@@ -13,15 +13,16 @@ brew "libzip"
 brew "mas"
 brew "mysql"
 brew "ncurses"
+brew "node"
 brew "openssl"
 brew "openssl@1.1"
 brew "pcre2"
 brew "python"
 brew "readline"
 brew "sqlite"
-brew "tmux"
 brew "thefuck"
 brew "tldr"
+brew "tmux"
 brew "wget"
 brew "xz"
 
@@ -41,29 +42,32 @@ cask "tableplus"
 cask "visual-studio-code"
 
 # Productivity
-cask "evernote"
 cask "1password"
-cask "teamviewer"
+cask "appcleaner"
+cask "authy"
+cask "evernote"
 cask "google-backup-and-sync"
+cask "puush"
+cask "scroll-reverser"
+cask "spectacle"
+cask "teamviewer"
 
 # Entertainment
 cask "spotify"
+cask "steam"
 cask "vlc"
 
 # Messaging
 cask "caprine"
-cask "skype"
 cask "discord"
+cask "skype"
 cask "slack"
 cask "telegram"
 
 # Other apps
-cask "appcleaner"
-cask "authy"
-cask "puush"
-cask "scroll-reverser"
-cask "spectacle"
-cask "steam"
+
+
+
 
 # ===== Mac Apple Store =====
 
