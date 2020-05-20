@@ -10,14 +10,9 @@ for file in $files; do
   rm -rf ~/$file
 done
 
-
 echo "Setting symlinks for git, tmux and vim.."
 for file in $files; do
   ln -s $(pwd)/config/$file ~
 done
-
-echo "Downloading monokai vim syntax highlighting.."
-mkdir -p ~/.vim/colors
-wget https://raw.githubusercontent.com/sickill/vim-monokai/master/colors/monokai.vim -O ~/.vim/colors/monokai.vim
 
 echo "Done!"
