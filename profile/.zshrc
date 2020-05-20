@@ -1,7 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 export PROFILE_PATH="$HOME/repos/dotfiles/profile"
 
-ZSH_THEME="af-magic"
+ZSH_THEME="sass"
 
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
