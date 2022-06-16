@@ -39,14 +39,20 @@
     cv = commit -v
     co = checkout
     cb = checkout -b
+    ct = checkout --track
     cl = clone
     df = diff
     dc = diff --cached
     fe = fetch
     last = log -1 HEAD
     mr = merge
-    poh = push origin HEAD
-    ploh = pull origin HEAD
+    poh = push -u origin HEAD
+    pum = pull upstream master
+    rs = remote show
+    spop = stash pop
     st = status
     unci = reset HEAD~
     unstage = reset HEAD --
+	su = submodule update --remote --merge
+[pull]
+	rebase = false
