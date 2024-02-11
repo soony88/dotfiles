@@ -1,77 +1,49 @@
+tap "buildkite/cli"
+
 # ===== Brews =====
 
 brew "autojump"
-brew "awscli"
-brew "gdbm"
-brew "gettext"
-brew "git"
+brew "buildkite/cli/bk"
+brew "cloudformation-guard"
+brew "docker"
+brew "gh"
 brew "helm"
+brew "helmfile"
 brew "jq"
-brew "kops"
 brew "kubectl"
-brew "libevent"
-brew "libidn2"
-brew "libunistring"
-brew "libzip"
-brew "mas"
-brew "mysql"
-brew "ncurses"
-brew "node"
-brew "openssl"
-brew "openssl@1.1"
-brew "pcre2"
-brew "python"
-brew "readline"
-brew "sqlite"
+brew "pyenv"
+brew "starship"
 brew "terraform"
 brew "thefuck"
 brew "tldr"
 brew "tmux"
 brew "watch"
-brew "wget"
-brew "xz"
+brew "yamllint"
 
 # ===== Casks =====
 
 # Browsers
-cask "brave-browser"
 cask "google-chrome"
+cask "firefox"
 
 # Developer Tools
-cask "atom"
 cask "docker"
 cask "iterm2"
-cask "hyper"
-cask "postman"
-cask "tableplus"
+cask "warp"
+cask "lens"
 cask "visual-studio-code"
 
 # Productivity
 cask "1password"
-cask "appcleaner"
-cask "authy"
-cask "evernote"
-cask "google-backup-and-sync"
-cask "puush"
-cask "scroll-reverser"
-cask "spectacle"
-cask "teamviewer"
+cask "gimp"
 
 # Entertainment
 cask "spotify"
-cask "steam"
-cask "vlc"
 
 # Messaging
-cask "caprine"
-cask "discord"
-cask "skype"
-cask "slack"
-cask "telegram"
+cask "messenger"
 
 # Other apps
-
-
-# ===== Mac Apple Store =====
-
-mas "Trello", id: 1278508951
+cask "scroll-reverser"
+cask "spectacle"
+cask "appcleaner"
