@@ -2,11 +2,11 @@ tap "buildkite/cli"
 
 # ===== Brews =====
 
-brew "autojump"
 brew "buildkite/cli/bk"
 brew "cloudformation-guard"
 brew "docker"
 brew "gh"
+brew "git"
 brew "helm"
 brew "helmfile"
 brew "jq"
@@ -14,11 +14,14 @@ brew "kubectl"
 brew "pyenv"
 brew "starship"
 brew "terraform"
-brew "thefuck"
 brew "tldr"
 brew "tmux"
 brew "watch"
 brew "yamllint"
+brew "zoxide"
+brew "fzf"
+brew "neovim"
+brew "bash-git-prompt"
 
 # ===== Casks =====
 
@@ -27,6 +30,7 @@ cask "google-chrome"
 cask "firefox"
 
 # Developer Tools
+cask "alacritty"
 cask "docker"
 cask "iterm2"
 cask "warp"

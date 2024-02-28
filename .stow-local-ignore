@@ -12,6 +12,7 @@ _darcs
 \.hg
 
 \.git
+\.git
 \.gitignore
 
 \.DS_Store
@@ -24,3 +25,9 @@ _darcs
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
+
+^\.tmp.*
+
+^/Brewfile
+^/Brewfile.lock.json
+^/install_brew\.sh
