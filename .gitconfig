@@ -59,6 +59,7 @@
     sl = stash list
     spop = stash pop
     st = status
+    subu = submodule update --remote --merge --init --recursive
     unci = reset HEAD~
     unstage = reset HEAD --
 [pull]
