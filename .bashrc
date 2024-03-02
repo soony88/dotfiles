@@ -1,6 +1,7 @@
 #
 # ~/.bashrc
 #
+export BASH_SILENCE_DEPRECATION_WARNING=1
 
 source ~/.alias
 source ~/.env
@@ -35,3 +36,11 @@ fi
 
 # zoxide
 eval "$(zoxide init --cmd cd bash)"
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
