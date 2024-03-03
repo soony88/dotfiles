@@ -1,0 +1,17 @@
+docker
+fzf
+gh
+git
+helmfile
+jq
+kubernetes-cli
+neovim
+pyenv
+stow
+terraform
+tldr
+tmux
+watch
+yamllint
+zoxide
+zsh-syntax-highlighting

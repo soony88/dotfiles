@@ -1,5 +1,6 @@
 # nvim
 alias v=nvim
+alias vim=nvim
 
 # fzf aliases
 # use fp to do a fzf search and preview the files
