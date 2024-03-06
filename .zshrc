@@ -1,12 +1,14 @@
 # Exports
 export XDG_CONFIG_HOME="$HOME"/.config
-export PATH="/Users/sassoonkuyumcian/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # Source
-source ~/.alias
-source ~/.env
-source ~/.config/zsh/git-prompt.zsh
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.alias ]      && source ~/.alias
+[ -f ~/.env ]        && source ~/.env
+[ -f ~/.secret_env ] && source ~/.secret_env
+
+[ -f ~/.config/zsh/git-prompt.zsh ] && source ~/.config/zsh/git-prompt.zsh
+[ -f ~/.config/zsh/.fzf.zsh ]       && source ~/.config/zsh/.fzf.zsh
 
 # Eval
 eval "$(zoxide init --cmd cd zsh)"

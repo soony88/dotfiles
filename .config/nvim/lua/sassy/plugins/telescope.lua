@@ -18,7 +18,22 @@ return {
             ["<C-k>"] = actions.move_selection_previous, -- move to prev result
             ["<C-j>"] = actions.move_selection_next, -- move to next result
             ["<C-q>"] = actions.send_selected_to_qflist + actions.open_qflist,
-          },
+          }
+        },
+        file_ignore_patterns = {
+          "node_modules",
+          ".git"
+        }
+      },
+      pickers = {
+        find_files = {
+          hidden = true
+        },
+        grep_string = {
+          additional_args = {"--hidden"}
+        },
+        live_grep = {
+          additional_args = {"--hidden"}
         },
       },
     })
