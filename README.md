@@ -1,13 +1,9 @@
 ### Usage
 
-Edit the following line in `profile/.zshrc` to set the path to dotfiles:
-```
-export PROFILE_PATH="<path_to_this_repo>/profile"
-```
 
 Run the following command to do a full install on a new Mac:
 ```
-./setup.sh
+./setup_mac.sh
 ```
 
 Run the following separately if need be:

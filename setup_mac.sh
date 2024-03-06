@@ -13,11 +13,12 @@ echo "Running brew update and upgrade"
 brew update
 brew upgrade
 
-echo "Using Brewfile to bundle install.."
-brew bundle
+echo "Install from leaves.txt and casks.txt"
 xargs brew install < leaves.txt
+xargs brew install --cask < casks.txt
 
 echo "Running brew cleanup"
 brew cleanup
 
-echo "Done!"
+echo "Running brew doctor"
+brew doctor
