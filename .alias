@@ -46,6 +46,27 @@ alias ssm='aws ssm start-session --target'
 alias k="kubectl"
 alias kdash="kubectl -n addons describe secret \$(kubectl -n addons get secret | awk '/^admin-user-/{print \$1}') | awk '\$1==\"token:\"{print \$2}'"
 
+function adfs {
+  role=""
+  case $1 in
+    bas-test)        role=tc-rg-baseline-test-Developer ;;
+    tab-prod)        role=tc-rg-tabcorp-tab-prod-readonly ;;
+    wag-bas-nonprod) role=tc-rg-wagering-baseline-nonprod-Developer ;;
+    wag-bas-preprod) role=tc-rg-wagering-baseline-preprod-Developer ;;
+    wag-bas-prod2)   role=tc-rg-wagering-baseline-prod2-Developer ;;
+    wag-dev)         role=tc-rg-tabcorp-wagering-dev-Developer ;;
+    wag-env)         role=tc-rg-wagering-environment-test-Developer ;;
+    wag-int)         role=tc-rg-wagering-integration-test-Developer ;;
+    wag-nonprod)     role=tc-rg-wagering-nonprod-Developer ;;
+    wag-preprod)     role=tc-rg-wagering-preprod-Developer ;;
+    wag-prod)        role=tc-rg-tabcorp-wagering-prod-Developer ;;
+    wag-test)        role=tc-rg-tabcorp-wagering-test-Developer ;;
+    *)               echo "dunno" ;;
+  esac
+
+  aws-adfs -u corpad\\pa_kumuycians -p $(op read "op://Tabcorp/pa-account/password") --role role/${role} && kc $1
+ }
+
 # Update Kubeconfig
 function kc {
   aws eks update-kubeconfig --name $1-terraform-eks-cluster

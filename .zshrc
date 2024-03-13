@@ -13,7 +13,8 @@ export PATH="$HOME/.local/bin:$PATH"
 # Eval
 eval "$(zoxide init --cmd cd zsh)"
 
-# Vi mode
+# ~~~~~ Vi Mode ~~~~~ #
+
 bindkey -v
 export KEYTIMEOUT=1
 
@@ -55,6 +56,10 @@ bindkey -v '^?' backward-delete-char
 # edit line in vim with ctrl-e
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
+
+# ~~~~~ Completion ~~~~~ #
+
+eval "$(op completion zsh)"; compdef _op op
 
 # Must be at end of .zshrc
 # See: https://github.com/zsh-users/zsh-syntax-highlighting?tab=readme-ov-file#why-must-zsh-syntax-highlightingzsh-be-sourced-at-the-end-of-the-zshrc-file
